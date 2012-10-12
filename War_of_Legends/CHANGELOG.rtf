@@ -1,20 +1,74 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fnil\fcharset0 Zapfino;\f1\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww21120\viewh14180\viewkind0
+\paperw11900\paperh16840\margl1440\margr1440\vieww24200\viewh14520\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
 \f0\i\fs40 \cf0 War of Legends
 \f1\i0\b\fs24 \
 
-\i Changelog v1.0.0
-\i0 \
+\i Changelog v1.0.2\
 \
-version 1.0.0\
+
+\i0 version 1.0.2\
+
+\b0 \
+Sylvans:\
+---> New base images for Faerie Sprite-line.
+\i\b \
 \
+
+\i0 version 1.0.1\
+\ul \
+
+\b0 Misc:\
+\ulnone ---> Fixed the textdomain of all files.\
+---> Edited movement_types to fit the ones in core. (Removed things like 
+\i impassable=100 
+\i0 or
+\i  impassable=\{UNREACHABLE\}
+\i0 )\
+---> 
+\i War of Ancients 
+\i0 (AoH version of WOL) added.\
+---> Removed Energy-beam
+\b \ul  
+\b0 \ulnone projectiles.\
+
+\b \ul \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
-\b0 \cf0 Merged Great Legend Era and GLE_Extended\
+\b0 \cf0 \ulc0 Southerners:
+\b \ulnone \
+
+\b0 ---> Fixed level of Moon Enchantress to 3.\
+\
+\ul Elementals:\
+\ulnone ---> Disabled advancement of Lava Beast to Living Volcano. The advancement is enabled by 
+\b ENABLE_LIVING_VOLCANO
+\b0  in campaign 
+\i extra_defines. 
+\i0 This is used in 
+\i The Legend Begins: Episode 1.
+\i0  
+\i \
+\
+
+\i0 \ul Vampires:\
+\ulnone ---> Fixed advancement path for Bloodborn.\
+\
+\ul Sylvans:\
+\ulnone ---> Removed Elvish Hunter from recruit list.\
+\
+\ul Campaign Specifics:-\
+\ulnone ---> Melee Attack of Elvish Hunter increased by 1.\
+---> New animations for the Wose Shaman.\
+
+\b \
+version 1.0.0\
+\
+
+\b0 Merged Great Legend Era and GLE_Extended\
 \
 \ul Abilities and Specials:-\
    \ulnone * New ability 
@@ -60,10 +114,8 @@ version 1.0.0\
 \i death 
 \i0 ranged attack changed to 21-2\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 \ul \ulc0 Human Alliance:-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 \ulnone     * Changed impact ranged damage of Thunder Mage from 3-5 to 8-2.\
+\ul Human Alliance:-\
+\ulnone     * Changed impact ranged damage of Thunder Mage from 3-5 to 8-2.\
     * Changed impact ranged damage of Tempest Mage from 5-5 to 13-2.\
     * Changed impact ranged damage of Mage of Storms from 7-5 to 18-2.\
     * Changed arcane ranged damage of Mage of Nature from 30-1 to 16-2.\
@@ -71,20 +123,15 @@ version 1.0.0\
     * Removed Fencer from faction recruit list.\
     * Duke has arcane 10-4 melee attack.\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 \ul Elementals:\ulnone \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\ul Elementals:\ulnone \
 
-\i \cf0     * New attack icons for various attacks.\
+\i     * New attack icons for various attacks.\
     * Fixed attack animation of the  Ethereal Orb\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
-\i0 \cf0 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 \ul Aragwaithi:\ulnone \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\i0 \
+\ul Aragwaithi:\ulnone \
 
-\i \cf0     * Ancient Banner abilities: +leadership, -protection, -steadfast\
+\i     * Ancient Banner abilities: +leadership, -protection, -steadfast\
     * Ancient banner resistances: impact 10% -> 20%\
     * Ancient banner stats: HP 55 -> 58, MP 4 -> 5\
     * Ancient banner attacks: sword renamed to scythe\
@@ -146,9 +193,8 @@ version 1.0.0\
     * Adept attacks: staff renamed to kick, 6-2 -> 7-1\
     *  Enchantress attacks: melee 10-2 -> 7-2, ranged 11-3 -> 10-3\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
-\i0 \cf0 \ul Wesfolk:-
+\i0 \ul Wesfolk:-
 \i \ulnone \
     * IDs of Wesfolk Outcast changed to:-\
        Tracker -> Nightwatch -> Prowler\
@@ -160,24 +206,20 @@ version 1.0.0\
 \
 
 \i0 \ul Orcish Union:-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
-\i \cf0 \ulnone    * Faction name changed from Orcish Alliance to Orcish Union\
+\i \ulnone    * Faction name changed from Orcish Alliance to Orcish Union\
    * Increased XP of Shaman from 33 to 48.\
    * Shaman +1 cost\
    * Naga Marksman +2 cost\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
-\i0 \cf0 \ul Southern Elves:-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\i0 \ul Southern Elves:-\
 
-\i \cf0 \ulnone    * Advancement icons for the Dust Devil.\
+\i \ulnone    * Advancement icons for the Dust Devil.\
    * Total reconstruction of faction.\
    * Gave all units the liminal alignment (with the exception of the South Elven Mystic tree)\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
-\i0 \cf0 \ul \
+\i0 \ul \
 Vampires
 \i \ulnone \
    
@@ -196,8 +238,7 @@ Vampires
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 \cf0 \ul Dark Legion:-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 \ulnone    * Added Terror to Dark Warrior\
+\ulnone    * Added Terror to Dark Warrior\
    * Decreased HP of Dark Warrior to 62.\
    * Increased cost of Dark Warrior to 58.\
    * Dark Fighter -5 HP\
@@ -205,15 +246,12 @@ Vampires
    * Dark Fighter +12 XP\
    * Dark FIghter +5 cost\
    * Dark Commander -1 melee\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
-\i \cf0 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\i \
 
-\i0 \cf0 \ul Campaign Specifics:-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\i0 \ul Campaign Specifics:-\
 
-\i \cf0 \ulnone    * Increased XP required for Ogre -> Great Ogre to 90\
+\i \ulnone    * Increased XP required for Ogre -> Great Ogre to 90\
    * Removed Champion.\
    * New base frame for Warmaster.\
    * New base frame for Captain.\

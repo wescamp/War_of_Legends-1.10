@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: War_of_Legends-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 21:06-0400\n"
+"POT-Creation-Date: 2012-10-12 18:44-0400\n"
 "PO-Revision-Date: 2012-08-26 03:42+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,64 +12,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. [era]: id=WOL
-#: War_of_Legends/eras/War_of_Legends.cfg:5
-msgid "War of Legends Era"
+#. [era]: id=wol_heroes
+#: War_of_Legends/eras/War_of_Ancients.cfg:7
+msgid "War of Ancients Era"
 msgstr ""
 
 #. [multiplayer_side]: id=Aragwaithi, type=Aragwaith Flagbearer
+#. [multiplayer_side]: id=Aragwaithi_ALE, type=Aragwaith Captain
+#: War_of_Legends/eras/War_of_Ancients.cfg:15
 #: War_of_Legends/factions/Aragwaithi-WOL.cfg:5
 msgid "Aragwaithi"
 msgstr ""
 
 #. [multiplayer_side]: id=Elementals, type=Red Mage
+#. [multiplayer_side]: id=Elementals_ALE, type=Arch Mage
+#: War_of_Legends/eras/War_of_Ancients.cfg:27
 #: War_of_Legends/factions/Elementals-WOL.cfg:5
 msgid "Elementals"
 msgstr ""
 
 #. [multiplayer_side]: id=Human Alliance, type=Swordsman
+#. [multiplayer_side]: id=Human_Alliance_ALE, type=Royal Guard
+#: War_of_Legends/eras/War_of_Ancients.cfg:40
 #: War_of_Legends/factions/Humans-WOL.cfg:4
 msgid "Human Alliance"
 msgstr ""
 
 #. [multiplayer_side]: id=Dark Legion, type=Dark Longswordsman
+#. [multiplayer_side]: id=Dark_Legion_ALE, type=Dark Champion
+#: War_of_Legends/eras/War_of_Ancients.cfg:53
 #: War_of_Legends/factions/Legion-WOL.cfg:5
 msgid "Dark Legion"
 msgstr ""
 
 #. [multiplayer_side]: id=Minotaurs, type=Minotaur Rouser
+#. [multiplayer_side]: id=Minotaurs_ALE, type=Minotaur Overlord
+#: War_of_Legends/eras/War_of_Ancients.cfg:65
 #: War_of_Legends/factions/Minotaurs-WOL.cfg:5
 msgid "Minotaurs"
 msgstr ""
 
+#. [multiplayer_side]: id=Orcish Union ALE, type=Orcish Warlord
 #. [multiplayer_side]: id=Orcish Union, type=Orcish Warrior
+#: War_of_Legends/eras/War_of_Ancients.cfg:78
 #: War_of_Legends/factions/Orcs-WOL.cfg:4
 msgid "Orcish Union"
 msgstr ""
 
 #. [multiplayer_side]: id=Southerners, type=South Elven Warrior
+#. [multiplayer_side]: id=Southerners_ALE, type=South Elven Champion
+#: War_of_Legends/eras/War_of_Ancients.cfg:92
 #: War_of_Legends/factions/Southerners-WOL.cfg:4
 msgid "Southerners"
 msgstr ""
 
 #. [multiplayer_side]: id=Undead, type=Deathmaster
+#. [multiplayer_side]: id=Undead_ALE, type=Demilich
+#: War_of_Legends/eras/War_of_Ancients.cfg:119
 #: War_of_Legends/factions/Undead-WOL.cfg:4
 msgid "Undead Hordes"
 msgstr ""
 
 #. [multiplayer_side]: id=Vampires, type=Vampire Noble
+#. [multiplayer_side]: id=Vampires_ALE, type=Sire
+#: War_of_Legends/eras/War_of_Ancients.cfg:133
 #: War_of_Legends/factions/Vampires-WOL.cfg:5
 msgid "Vampires"
+msgstr ""
+
+#. [multiplayer_side]: id=Wesfolk_ALE, type=Prowler
+#: War_of_Legends/eras/War_of_Ancients.cfg:146
+msgid "Prowler"
+msgstr ""
+
+#. [multiplayer_side]: id=Windsong, type=Prophetess
+#. [multiplayer_side]: id=Windsong_ALE, type=Ascendant
+#: War_of_Legends/eras/War_of_Ancients.cfg:158
+#: War_of_Legends/factions/Windsong-WOL.cfg:5
+msgid "Windsong"
+msgstr ""
+
+#. [era]: id=WOL
+#: War_of_Legends/eras/War_of_Legends.cfg:5
+msgid "War of Legends Era"
 msgstr ""
 
 #. [multiplayer_side]: id=Wesfolk, type=Huntress
 #: War_of_Legends/factions/Wesfolk-WOL.cfg:5
 msgid "Wesfolk"
-msgstr ""
-
-#. [multiplayer_side]: id=Windsong, type=Prophetess
-#: War_of_Legends/factions/Windsong-WOL.cfg:5
-msgid "Windsong"
 msgstr ""
 
 #: War_of_Legends/macros/abilities.cfg:8
@@ -622,16 +652,17 @@ msgstr ""
 #. [trait]: id=spirit
 #: War_of_Legends/macros/traits-elementals.cfg:79
 #: War_of_Legends/macros/traits.cfg:12 War_of_Legends/macros/traits.cfg:26
+#: War_of_Legends/units/faeries.cfg:92
 msgid "Immune to drain, poison and plague"
 msgstr ""
 
 #. [trait]: id=spirit
-#: War_of_Legends/macros/traits.cfg:10
+#: War_of_Legends/macros/traits.cfg:10 War_of_Legends/units/faeries.cfg:90
 msgid "spirit"
 msgstr ""
 
 #. [trait]: id=spirit
-#: War_of_Legends/macros/traits.cfg:11
+#: War_of_Legends/macros/traits.cfg:11 War_of_Legends/units/faeries.cfg:91
 msgid "female^spirit"
 msgstr ""
 
@@ -917,7 +948,7 @@ msgstr ""
 #: War_of_Legends/units/elementals/Fire_Ghost.cfg:29
 #: War_of_Legends/units/elementals/Lava_Beast.cfg:28
 #: War_of_Legends/units/elementals/Living_Furnace.cfg:27
-#: War_of_Legends/units/elementals/Living_Volcano.cfg:28
+#: War_of_Legends/units/elementals/Living_Volcano.cfg:34
 msgid "fire claws"
 msgstr ""
 
@@ -1069,7 +1100,7 @@ msgid "Living Volcano"
 msgstr ""
 
 #. [unit_type]: id=Living Volcano, race=elemental
-#: War_of_Legends/units/elementals/Living_Volcano.cfg:20
+#: War_of_Legends/units/elementals/Living_Volcano.cfg:26
 msgid ""
 "Enormous in size and twice as aggressive as fifty raging bulls combined, "
 "these enormous beasts are believed to be the hearts of volcanoes themselves "
@@ -1079,7 +1110,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/elementals/Living_Volcano.cfg:37
+#: War_of_Legends/units/elementals/Living_Volcano.cfg:43
 msgid "erupt"
 msgstr ""
 
@@ -1775,67 +1806,71 @@ msgid ""
 "styles of different races across the world."
 msgstr ""
 
+#. [race]: id=fairy
+#: War_of_Legends/units/faeries.cfg:5
+msgid "race^Faerie"
+msgstr ""
+
+#. [race]: id=fairy
+#: War_of_Legends/units/faeries.cfg:6
+msgid "race+male^Faerie"
+msgstr ""
+
+#. [race]: id=fairy
+#: War_of_Legends/units/faeries.cfg:7
+msgid "race^Fairies"
+msgstr ""
+
+#. [race]: id=fairy
+#: War_of_Legends/units/faeries.cfg:8
+msgid ""
+"Great, dark forests and caves are excellent places for mysterious creatures "
+"to live and hide in. Rarely seen, the mischievous fairies are some of the "
+"most beautiful beings who inhabit those parts. Their protective attitude "
+"towards nature make them friends of the elves who often share their "
+"territory, but their whimsical personality and control over the fire element "
+"are characteristics that any creature foreign to their forests should fear "
+"and respect."
+msgstr ""
+
 #. [unit_type]: id=Faerie Dryad, race=fairy
-#: War_of_Legends/units/fairies/Dryad.cfg:5
+#: War_of_Legends/units/fairies/Faerie_Dryad.cfg:5
 msgid "Dryad"
 msgstr ""
 
 #. [unit_type]: id=Faerie Dryad, race=fairy
-#: War_of_Legends/units/fairies/Dryad.cfg:34
+#: War_of_Legends/units/fairies/Faerie_Dryad.cfg:34
 msgid ""
 "The beautiful nymphs that secretly live in forests have been named Dryads, "
-"because of their afinity with vegetation. These faerie beings are beautiful "
+"because of their affinity with vegetation. These faerie beings are beautiful "
 "enough to often fool enemies, who mistake them for innocent ladies, until "
 "they see themselves being consumed with their mystic fire. This is yet "
 "another reason to avoid entering elvish territory without permission."
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/fairies/Dryad.cfg:40
-#: War_of_Legends/units/fairies/Fire.cfg:31
-#: War_of_Legends/units/fairies/Spirit.cfg:44
-#: War_of_Legends/units/fairies/Sprite.cfg:30
+#: War_of_Legends/units/fairies/Faerie_Dryad.cfg:40
+#: War_of_Legends/units/fairies/Faerie_Spirit.cfg:45
+#: War_of_Legends/units/fairies/Faerie_Sprite.cfg:30
+#: War_of_Legends/units/fairies/Fire_Faerie.cfg:31
 msgid "fire aura"
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/fairies/Dryad.cfg:49
-#: War_of_Legends/units/fairies/Fire.cfg:40
-#: War_of_Legends/units/fairies/Spirit.cfg:56
-#: War_of_Legends/units/fairies/Sprite.cfg:39
+#: War_of_Legends/units/fairies/Faerie_Dryad.cfg:49
+#: War_of_Legends/units/fairies/Faerie_Spirit.cfg:57
+#: War_of_Legends/units/fairies/Faerie_Sprite.cfg:39
+#: War_of_Legends/units/fairies/Fire_Faerie.cfg:40
 msgid "mystic fire"
 msgstr ""
 
-#. [unit_type]: id=Fire Faerie, race=fairy
-#: War_of_Legends/units/fairies/Fire.cfg:5
-msgid "Fire Faerie"
-msgstr ""
-
-#. [unit_type]: id=Fire Faerie, race=fairy
-#: War_of_Legends/units/fairies/Fire.cfg:23
-msgid ""
-"Faeries are rarely seen in a battlefield, as they are usually pacific "
-"creatures when not disturbed. And they are rarely disturbed, as most races "
-"know already what can the consequences be, if they dare defy a faerie, thus "
-"choosing to respect them and their homes. However, it is said that in times "
-"of war and great need they can become powerful allies to those who protect "
-"nature as much as they do. And the best race for that purpose are the forest "
-"elves.\n"
-"\n"
-"The most experienced faeries have developed a fearsome mastery of the fire "
-"element, which they can use to throw powerful fireballs to their oponents at "
-"long range, or to burn them at close range with a single touch of their "
-"hands. It is said that their very bodies start to burn, eventually leading "
-"them to become non-corporeal spirits of nature, made of pure fire."
-msgstr ""
-
 #. [unit_type]: id=Faerie Spirit, race=fairy
-#: War_of_Legends/units/fairies/Spirit.cfg:5
+#: War_of_Legends/units/fairies/Faerie_Spirit.cfg:5
 msgid "Forest Spirit"
 msgstr ""
 
 #. [unit_type]: id=Faerie Spirit, race=fairy
-#: War_of_Legends/units/fairies/Spirit.cfg:38
+#: War_of_Legends/units/fairies/Faerie_Spirit.cfg:39
 msgid ""
 "Faeries may eventually become one with the fire element, turning into "
 "spirits of flame and might, which they will use to relentlessly protect the "
@@ -1845,18 +1880,60 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=Faerie Sprite, race=fairy
-#: War_of_Legends/units/fairies/Sprite.cfg:5
+#: War_of_Legends/units/fairies/Faerie_Sprite.cfg:5
 msgid "Sprite"
 msgstr ""
 
 #. [unit_type]: id=Faerie Sprite, race=fairy
-#: War_of_Legends/units/fairies/Sprite.cfg:24
+#: War_of_Legends/units/fairies/Faerie_Sprite.cfg:24
 msgid ""
 "Mischievous in nature, these fiery fairies are pranksters at heart, with a "
 "sense of humor that is often called nymph-like. While their command of the "
 "fire element remains a mystery, it has been rumored that these fairies are "
 "cousins to the imp.  However, their protective attitude of nature and "
 "whimsical personality make them fast friends to the elves."
+msgstr ""
+
+#. [unit_type]: id=Fire Faerie, race=fairy
+#: War_of_Legends/units/fairies/Fire_Faerie.cfg:5
+msgid "Fire Faerie"
+msgstr ""
+
+#. [unit_type]: id=Fire Faerie, race=fairy
+#: War_of_Legends/units/fairies/Fire_Faerie.cfg:23
+msgid ""
+"Faeries are rarely seen on a battlefield, as they are usually pacific "
+"creatures when not disturbed. And they are rarely disturbed, as most races "
+"know already what the consequences can be, if they dare defy a faerie, thus "
+"choosing to respect them and their homes. However, it is said that in times "
+"of war and great need they can become powerful allies to those who protect "
+"nature as much as they do. And the best race for that purpose are the forest "
+"elves.\n"
+"\n"
+"The most experienced faeries have developed a fearsome mastery of the fire "
+"element, which they can use to throw powerful fireballs to their opponents "
+"at long range, or to burn them at close range with a single touch of their "
+"hands. It is said that their very bodies start to burn, eventually leading "
+"them to become non-corporeal spirits of nature, made of pure fire."
+msgstr ""
+
+#. [race]: id=gargoyle
+#: War_of_Legends/units/gargoyles.cfg:7
+msgid "race^Gargoyle"
+msgstr ""
+
+#. [race]: id=gargoyle
+#: War_of_Legends/units/gargoyles.cfg:8
+msgid "race^Gargoyles"
+msgstr ""
+
+#. [race]: id=gargoyle
+#: War_of_Legends/units/gargoyles.cfg:9
+msgid ""
+"Some of the darker, yet bizare magic casted upon stone results in the "
+"Gargoyles. Gargoyles often take on the form of flying statues, they really "
+"cannot do much besides slamming into their foes, thus their masters, the "
+"Vampires often use them as blockades to by time for an assault."
 msgstr ""
 
 #. [unit_type]: id=Gargoyle, race=gargoyle
@@ -1953,6 +2030,43 @@ msgstr ""
 #. [attack]: type=blade
 #: War_of_Legends/units/gnolls/Regular.cfg:26
 msgid "dagger"
+msgstr ""
+
+#. [race]: id=aragwaith
+#: War_of_Legends/units/humans.cfg:6
+msgid "race^Aragwaith"
+msgstr ""
+
+#. [race]: id=aragwaith
+#: War_of_Legends/units/humans.cfg:7
+msgid "race+female^Aragwaith"
+msgstr ""
+
+#. [race]: id=aragwaith
+#: War_of_Legends/units/humans.cfg:8
+msgid "race^Aragwaithi"
+msgstr ""
+
+#. [race]: id=aragwaith
+#: War_of_Legends/units/humans.cfg:12
+msgid ""
+"During most of the Golden Age, the humans who inhabited the Great Continent "
+"were mostly Wesnothians, divided across various territories such as the "
+"Northlands, Elensefar and the kingdom of Wesnoth itself. However, there was "
+"once a time of great strife during which a new race of humans started to "
+"appear from nowhere. They were the 'Aragwaithi', which meant 'noble' in "
+"their native language.\n"
+"\n"
+"It has been since then rumored that they came from the Vast Sea to settle in "
+"Wesnoth. They mostly lived as mercenaries in that time, until the Fall. "
+"After that, they supposedly moved to the northmost lands of the Continent, "
+"were the sands could not reach, and the green could survive.\n"
+"\n"
+"Albeit being humans, many of their customs and racial features are "
+"incredibly different to the standards, to the point it puts them close to "
+"elves in terms of their dexterity with bows. Their wisemen have a mastery of "
+"magic not to be underestimated in the battlefield, for it has surprised and "
+"overseded the best magi often."
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Adept, race=aragwaith
@@ -3858,6 +3972,84 @@ msgid ""
 "Once great warriors thundering across the plains, these mounted riders atop "
 "their skeletal horses were raised from the grave by unholy magic to spread "
 "fear and destruction."
+msgstr ""
+
+#: War_of_Legends/units/vampires.cfg:5
+msgid ""
+"Abel,Aleron,Aldon,Altair,Alumit,Amaia,Amarande,Ambrose,Amdis,Andros,Ashling,"
+"Athan,Bakarne,Bela,Beval,Bian,Blaine,Braeden,Brandeis,Brendan,Brone,Bronwen,"
+"Carden,Cian,Corbin,Damalis,Damian,Danton,Daray,Delano,Donn,Dunkan,Eamen,"
+"Gustaff,Heath,Heathcliff,Ingrum,Jareth,Kaevan,Karayan,Kern,Kieran,Lucine,"
+"Marlin,Nelo,Parris,Raven,Rune,Savan,Sumnor,Tainn,Tariq,Tristram,Vega,Wynn,"
+"Lestat,Louis,Armand,Amadeo,Santiago,Marius,Magnus,David,Enkil,Mael,Santino,"
+"Vittorio,Thorne,Avicus,Felix,Laurent,Daniel,Khayman,Tarquin,Quinn,Vladimir,"
+"Vlad,Ansel,Anwar,Arden,Ashe,Ashford,Ashlin,Bairde,Barnabas,Bentley,Brishen,"
+"Connor,Crevan,Dante,Flynne,Gavin,Hewitt,Holt,Jacy,Jolon,Kasch,Lucyan,Morgyn,"
+"Pembroke,Quillan,Quinn,Riordin,Rowan,Sylvain,Taban,Teague,Wendell"
+msgstr ""
+
+#: War_of_Legends/units/vampires.cfg:6
+msgid ""
+"Aislinn,Alana,Alaura,Aleta,Alethea,Alma,Amaris,Amaryllis,Amaya,Ambrosine,"
+"Araxie,Ariana,Autumn,Badria,Blythe,Brenna,Busana,Cascata,Celine,Ceridwen,"
+"Chandra,Damarys,Denisha,Devin,Erela,Fala,Fanya,Hazelle,Isadora,Iva,Javan,"
+"Jenessa,Jora,Jordyn,Jovana,Kamalia,Kalyca,Kavindra,Kestrel,Kynthia,Laqueta,"
+"Layla,Leandra,Leigh,Livana,Naida,Neesha,Nevada,Oleta,Parkyr,Philomina,"
+"Pyralis,Rayne,Risa,Rosalia,Salena,Seda,Shahar,Shea,Silva,Silvana,Tabitha,"
+"Tacita,Tara,Tatiana,Tayce,Vala,Valonia,Vesta,Vidonia,Waneta,Wyntir,Yepa,"
+"Yolanda,Yoninah,Zyta,Adara,Adena,Adrianne,Alarice,Alvita,Amara,Ambika,"
+"Antonia,Araceli,Balandria,Basha,Beryl,Bryn,Callia,Caryssa,Cassandra,"
+"Casondrah,Chatha,Ciara,Cynara,Cytheria,Dabria,Darcei,Deandra,Deirdre,Delores,"
+"Desdomna,Devi,Drucilla,Duvessa,Fantine,Fuscienne,Gabi,Gallia,Hanna,Hedda,"
+"Jerica,Jetta,Joby,Kacila,Kala,Kallie,Keelia,Killian,Kory,Lilith,Lucretia,"
+"Lysha,Mercedes,Mia,Maura,Perdita,Quella,Riona,Safiya,Salina,Severin,Sidonia,"
+"Sirena,Solita,Tempest,Thea,Treva,Trista,Vala,Winta"
+msgstr ""
+
+#. [race]: id=vampire
+#: War_of_Legends/units/vampires.cfg:13
+msgid "race^Vampire"
+msgstr ""
+
+#. [race]: id=vampire
+#: War_of_Legends/units/vampires.cfg:14
+msgid "race+female^Vampiress"
+msgstr ""
+
+#. [race]: id=vampire
+#: War_of_Legends/units/vampires.cfg:15
+msgid "race^Vampires"
+msgstr ""
+
+#. [race]: id=vampire
+#: War_of_Legends/units/vampires.cfg:16
+msgid ""
+"The term 'vampire' is a word in an ancient dialect of the human language "
+"that would mean 'corrupted blood' in the modern tongue. In reality, vampires "
+"are not of a totally different race, but are the result of when a living "
+"creature's blood is corrupted by a very powerful, arcane type of magic. All "
+"vampires have red glowing eyes, white hair, pale skin, long fangs, and a "
+"craving for the blood of other living creatures. In addition, this magic has "
+"an effect on the creature so that it becomes similar to an undead creature; "
+"therefore necromancy, poison, and abilities that drain will have no effect "
+"on a vampire. Some of the more powerful vampires even have the ability to "
+"transform into bats. Due to all of this, vampires are often classified as a "
+"different race.\n"
+"\n"
+"As vampires have a strong craving for blood, they usually overwhelm an "
+"already existing society mainly composed of living creatures, and build a "
+"monarchy or an oligarchy over it; the living members of the society would be "
+"subservient to the local vampires, and annually, five dozen of those members "
+"would be sacrificed to the vampire population. Due to this practice, the "
+"vampiric overlords encourage the subservient population to reproduce in "
+"great numbers so that the number of members of the subservient population "
+"remains plentiful. In return for compliance, the participating families get "
+"a somewhat higher place in society. These societies work for two reasons, "
+"one because of the threat the vampires present; two, the subservient members "
+"benefit from this setup.\n"
+"\n"
+"Since blood is a very important part of vampire society, it is used as their "
+"currency. Also, blood is often involved in their magic."
 msgstr ""
 
 #. [unit_type]: id=Blood Apprentice, race=vampire

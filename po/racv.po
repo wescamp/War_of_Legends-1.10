@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: War_of_Legends-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-01 00:22+0200\n"
+"POT-Creation-Date: 2013-07-13 10:12-0400\n"
 "PO-Revision-Date: 2012-08-26 03:42+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1009,6 +1009,7 @@ msgstr ""
 #: War_of_Legends/units/aberrations/Inquisitor.cfg:37
 #: War_of_Legends/units/aberrations/Scornful_Watcher.cfg:42
 #: War_of_Legends/units/aberrations/Spiteful_Watcher.cfg:34
+#: War_of_Legends/units/orcs/Nightblade.cfg:55
 msgid "kick"
 msgstr ""
 
@@ -4268,6 +4269,30 @@ msgid ""
 "But though with time and hard-won experience we became skilled at driving "
 "them back to that cursed forest, our fear remained the same with each "
 "battle: the fear of losing our minds and souls, and ultimately, our lives.'"
+msgstr ""
+
+#. [unit_type]: id=Orcish Nightblade, race=orc
+#: War_of_Legends/units/orcs/Nightblade.cfg:5
+msgid "Orcish Nightblade"
+msgstr ""
+
+#. [unit_type]: id=Orcish Nightblade, race=orc
+#: War_of_Legends/units/orcs/Nightblade.cfg:30
+msgid ""
+"Slayers who reach the rank of the Nightblade are truly the best assassins "
+"around. Trained in ancient techniques of hand-to-hand combat, these "
+"assailants also carry daggers as wells as multiple knives dipped in poison - "
+"their most preferred weapon for a kill."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/orcs/Nightblade.cfg:46
+msgid "blade"
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/orcs/Nightblade.cfg:64
+msgid "throwing knives"
 msgstr ""
 
 #. [unit_type]: id=Orcish Shaman, race=orc

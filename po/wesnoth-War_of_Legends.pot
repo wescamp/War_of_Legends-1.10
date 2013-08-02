@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: War_of_Legends-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-13 10:12-0400\n"
+"POT-Creation-Date: 2013-08-02 22:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,16 @@ msgstr ""
 #. [language]
 #: ./War_of_Legends/_main.cfg:60
 msgid "type^arcane focus"
+msgstr ""
+
+#. [lua]
+#: ./War_of_Legends/_main.cfg:80 ./War_of_Legends/macros/nightmare-utils.cfg:486
+msgid "cursed: This unit is cursed. This unit gets a 15% defence penalty on every terrain."
+msgstr ""
+
+#. [era]: id=core_legends
+#: ./War_of_Legends/eras/Core_Legends.cfg:5
+msgid "Core Legends Era"
 msgstr ""
 
 #. [era]: id=empowered_legends
@@ -436,12 +446,8 @@ msgstr ""
 #: ./War_of_Legends/macros/nightmare-utils.cfg:460 ./War_of_Legends/macros/nightmare-utils.cfg:463
 msgid ""
 "Jinx:\n"
-"Curses the hit unit. The cursed unit gets a 15% defense penalty on every terrain until it is cured by a healer or in a village.\n"
-"Does not affect undead, and the defense value can't go lower than 10%."
-msgstr ""
-
-#: ./War_of_Legends/macros/nightmare-utils.cfg:486
-msgid "cursed: This unit is cursed. It unit gets a 15% defense penalty on every terrain."
+"Curses the hit unit. The cursed unit gets a 15% defence penalty on every terrain until it is cured by a healer or in a village.\n"
+"Does not affect undead, and the defence value can't go lower than 10%."
 msgstr ""
 
 #: ./War_of_Legends/macros/nightmare-utils.cfg:534 ./War_of_Legends/macros/nightmare-utils.cfg:584
@@ -1328,7 +1334,7 @@ msgid "Archers of the Southern Elves are trained from youth in archery, and so s
 msgstr ""
 
 #. [attack]: type=blade
-#: ./War_of_Legends/units/elves-south/Archer.cfg:23 ./War_of_Legends/units/elves-south/Champion.cfg:25 ./War_of_Legends/units/elves-south/Guard.cfg:40 ./War_of_Legends/units/elves-south/Hunter.cfg:27 ./War_of_Legends/units/elves-south/Marksman.cfg:22 ./War_of_Legends/units/elves-south/Protector.cfg:41 ./War_of_Legends/units/elves-south/Sharpshooter.cfg:23 ./War_of_Legends/units/elves-south/Warrior.cfg:23 ./War_of_Legends/units/elves-wood/Noble.cfg:26 ./War_of_Legends/units/gnolls/Deadeye.cfg:27 ./War_of_Legends/units/gnolls/Marksman.cfg:26 ./War_of_Legends/units/human-campaigns/Horse_Archer_Knight.cfg:31 ./War_of_Legends/units/human-campaigns/Horse_Cavalry.cfg:25 ./War_of_Legends/units/human-campaigns/Horse_Cavalry_Archer.cfg:28 ./War_of_Legends/units/human-campaigns/Loyalist_Captain.cfg:54 ./War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:54 ./War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:48 ./War_of_Legends/units/human-legion/Dark_Cavalier.cfg:23 ./War_of_Legends/units/human-legion/Dark_Commander.cfg:36 ./War_of_Legends/units/human-legion/Dark_Fighter.cfg:37 ./War_of_Legends/units/human-legion/Dark_Knight.cfg:22 ./War_of_Legends/units/human-legion/Dark_Pillager.cfg:23 ./War_of_Legends/units/human-legion/Dark_Raider.cfg:23 ./War_of_Legends/units/human-legion/Dark_Soldier.cfg:21 ./War_of_Legends/units/human-legion/Dark_Warrior.cfg:38 ./War_of_Legends/units/human-loyalists/Loyalist_Infantryman.cfg:29 ./War_of_Legends/units/nagas/Naga_Hunter.cfg:41 ./War_of_Legends/units/nagas/Naga_Marksman.cfg:28 ./War_of_Legends/units/undead/Skele_Death_Squire.cfg:33
+#: ./War_of_Legends/units/elves-south/Archer.cfg:23 ./War_of_Legends/units/elves-south/Champion.cfg:25 ./War_of_Legends/units/elves-south/Guard.cfg:40 ./War_of_Legends/units/elves-south/Hunter.cfg:27 ./War_of_Legends/units/elves-south/Marksman.cfg:22 ./War_of_Legends/units/elves-south/Protector.cfg:41 ./War_of_Legends/units/elves-south/Sharpshooter.cfg:23 ./War_of_Legends/units/elves-south/Warrior.cfg:23 ./War_of_Legends/units/elves-wood/Noble.cfg:26 ./War_of_Legends/units/gnolls/Deadeye.cfg:27 ./War_of_Legends/units/gnolls/Marksman.cfg:26 ./War_of_Legends/units/human-campaigns/Horse_Archer_Knight.cfg:31 ./War_of_Legends/units/human-campaigns/Horse_Cavalry.cfg:25 ./War_of_Legends/units/human-campaigns/Horse_Cavalry_Archer.cfg:28 ./War_of_Legends/units/human-campaigns/Loyalist_Captain.cfg:55 ./War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:55 ./War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:48 ./War_of_Legends/units/human-legion/Dark_Cavalier.cfg:23 ./War_of_Legends/units/human-legion/Dark_Commander.cfg:36 ./War_of_Legends/units/human-legion/Dark_Fighter.cfg:37 ./War_of_Legends/units/human-legion/Dark_Knight.cfg:22 ./War_of_Legends/units/human-legion/Dark_Pillager.cfg:23 ./War_of_Legends/units/human-legion/Dark_Raider.cfg:23 ./War_of_Legends/units/human-legion/Dark_Soldier.cfg:21 ./War_of_Legends/units/human-legion/Dark_Warrior.cfg:38 ./War_of_Legends/units/human-loyalists/Loyalist_Infantryman.cfg:29 ./War_of_Legends/units/nagas/Naga_Hunter.cfg:41 ./War_of_Legends/units/nagas/Naga_Marksman.cfg:28 ./War_of_Legends/units/undead/Skele_Death_Squire.cfg:33
 msgid "sword"
 msgstr ""
 
@@ -1527,7 +1533,7 @@ msgid "female^Elvish Ascetic"
 msgstr ""
 
 #. [unit_type]: id=Elvish Ascetic, race=elf
-#: ./War_of_Legends/units/elves-wood/Ascetic.cfg:20
+#: ./War_of_Legends/units/elves-wood/Ascetic.cfg:21
 msgid ""
 "Some elves have studied varieties of magic better suited for offensive purposes. Whence their knowledge and mastery of such arts came is not known, and they do not reveal their secrets. All that is known of their training is that they may spend long time alone in the wilderness, not to appear for years, or in extreme cases, centuries.\n"
 "\n"
@@ -1535,7 +1541,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=arcane
-#: ./War_of_Legends/units/elves-wood/Ascetic.cfg:63 ./War_of_Legends/units/elves-wood/Mystic.cfg:62
+#: ./War_of_Legends/units/elves-wood/Ascetic.cfg:64 ./War_of_Legends/units/elves-wood/Mystic.cfg:63
 msgid "ethereal zephyr"
 msgstr ""
 
@@ -1573,7 +1579,7 @@ msgid "female^Elvish Mystic"
 msgstr ""
 
 #. [unit_type]: id=Elvish Mystic, race=elf
-#: ./War_of_Legends/units/elves-wood/Mystic.cfg:20
+#: ./War_of_Legends/units/elves-wood/Mystic.cfg:21
 msgid "Experienced mystics are of great value in the Elven society. Their great knowledge of history and magic, tolerance and fair judgement is what is sought for in a leader or advisor. In times of need, they are in charge of assisting their lords with worthy advice or even support in the battlefield. But they have not finished learning yet, and still wander about the world, seeking for new questions to answer."
 msgstr ""
 
@@ -1795,7 +1801,7 @@ msgstr ""
 
 #. [unit_type]: id=Aragwaith Adept, race=aragwaith
 #: ./War_of_Legends/units/human-aragwaithi/Aragwaith_Adept.cfg:81
-msgid "The magically inclined ones among the Aragwaith recieve not only the martial training so common in Aragwaithi society, but also in the art of healing, and of course in magic. Wielding powerful fire, competent with their staves, possessing a healing touch, Adepts are the noblest of a noble people."
+msgid "The magically inclined ones among the Aragwaith receive not only the martial training so common in Aragwaithi society, but also in the art of healing, and of course in magic. Wielding powerful fire, competent with their staves, possessing a healing touch, Adepts are the noblest of a noble people."
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Ancient Banner, race=aragwaith
@@ -1917,13 +1923,18 @@ msgid "While Aragwaithi Swordsmen seem uncannily skilled to blade-wielders of ot
 msgstr ""
 
 #. [attack]: type=blade
-#: ./War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:26 ./War_of_Legends/units/human-aragwaithi/Aragwaith_Swordsmaster.cfg:55
+#: ./War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:26 ./War_of_Legends/units/human-aragwaithi/Aragwaith_Swordsmaster.cfg:29
 msgid "long sword"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Pikeman, race=aragwaith
 #: ./War_of_Legends/units/human-aragwaithi/Aragwaith_Pikeman.cfg:5
 msgid "Pikeman"
+msgstr ""
+
+#. [unit_type]: id=Aragwaith Pikeman, race=aragwaith
+#: ./War_of_Legends/units/human-aragwaithi/Aragwaith_Pikeman.cfg:17
+msgid "Having shown their merits in battle, Spearmen who do not choose the path of leadership will advance to the ranks of the Pikemen. Better armored than ordinary Spearmen, they drill almost fanatically until they act as a single unit against their foes. Their formations can even open out and face in all directions like the quills of a porcupine and in this way they have often shown themselves to be nearly invincible against countless futile charges by the enemy."
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Scout, race=aragwaith
@@ -2102,7 +2113,7 @@ msgid "Heavy Cavalry are more armored than regular Cavalry and their morning sta
 msgstr ""
 
 #. [unit_type]: id=Captain, race=human
-#: ./War_of_Legends/units/human-campaigns/Loyalist_Captain.cfg:26
+#: ./War_of_Legends/units/human-campaigns/Loyalist_Captain.cfg:27
 msgid "Some warriors who are entrusted to lead their brethren into battle are entitled 'Captains'. These leaders have sufficient skill with the sword and are armor-plated to withstand mostly physical attacks."
 msgstr ""
 
@@ -2127,7 +2138,7 @@ msgid "Warmaster"
 msgstr ""
 
 #. [unit_type]: id=Warmaster, race=human
-#: ./War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:27
+#: ./War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:28
 msgid "Fearless warriors with great strength, intelligence and the ability to command armies to victory are entitled Warmasters. These warriors are masters of the weapon they use and their stainless-steel armor can withstand any attack."
 msgstr ""
 
@@ -3253,7 +3264,7 @@ msgid "chill wave"
 msgstr ""
 
 #. [attack]: type=arcane
-#: ./War_of_Legends/units/undead/Necro_Deathmaster.cfg:50 ./War_of_Legends/units/undead/Necro_Demilich.cfg:61 ./War_of_Legends/units/undead/Necro_Dread_Lich.cfg:63 ./War_of_Legends/units/undead/Necro_Initiate.cfg:38
+#: ./War_of_Legends/units/undead/Necro_Deathmaster.cfg:50 ./War_of_Legends/units/undead/Necro_Demilich.cfg:62 ./War_of_Legends/units/undead/Necro_Dread_Lich.cfg:64 ./War_of_Legends/units/undead/Necro_Initiate.cfg:38
 msgid "shadow wave"
 msgstr ""
 
@@ -3263,17 +3274,17 @@ msgid "Demilich"
 msgstr ""
 
 #. [unit_type]: id=Demilich, race=undead
-#: ./War_of_Legends/units/undead/Necro_Demilich.cfg:31
+#: ./War_of_Legends/units/undead/Necro_Demilich.cfg:32
 msgid "After too much time dabbling with forbidden magics and dark arts, these magi have begun to pay a heavy price. Demiliches have started losing their bodies, becoming undead themselves. With time, they may become fully undead, and feared by all alike."
 msgstr ""
 
 #. [attack]: type=arcane
-#: ./War_of_Legends/units/undead/Necro_Demilich.cfg:37 ./War_of_Legends/units/undead/Necro_Dread_Lich.cfg:39
+#: ./War_of_Legends/units/undead/Necro_Demilich.cfg:38 ./War_of_Legends/units/undead/Necro_Dread_Lich.cfg:40
 msgid "touch"
 msgstr ""
 
 #. [attack]: type=cold
-#: ./War_of_Legends/units/undead/Necro_Demilich.cfg:49 ./War_of_Legends/units/undead/Necro_Dread_Lich.cfg:51
+#: ./War_of_Legends/units/undead/Necro_Demilich.cfg:50 ./War_of_Legends/units/undead/Necro_Dread_Lich.cfg:52
 msgid "chill tempest"
 msgstr ""
 
@@ -3283,8 +3294,8 @@ msgid "Dread Lich"
 msgstr ""
 
 #. [unit_type]: id=Dread Lich, race=undead
-#: ./War_of_Legends/units/undead/Necro_Dread_Lich.cfg:33
-msgid "At long last, necromantic practitioners have paid the ultimate sacrifice for the dark arts into which they have delved, and have, themselves, entered into undeath. At the apex of their power, they have become liches, a waking embodiment of dread. They have, beyond any doubt, passed the point of no return, and their power and immortality will have to provide consolation for what they have lost in their quest to achieve them."
+#: ./War_of_Legends/units/undead/Necro_Dread_Lich.cfg:34
+msgid "At long last, necromantic practitioners have paid the ultimate sacrifice for the dark arts into which they have delved, and have, themselves, entered into undeath. At the apex of their power, they have become master liches, a waking embodiment of dread. They have, beyond any doubt, passed the point of no return, and their power and immortality will have to provide consolation for what they have lost in their quest to achieve them."
 msgstr ""
 
 #. [unit_type]: id=Initiate, race=undead
